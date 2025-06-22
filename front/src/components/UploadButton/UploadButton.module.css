@@ -1,0 +1,75 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: fit-content;
+
+  .buttonsWrapper {
+    display: flex;
+    gap: 10px;
+    width: auto;
+
+    .mainButton {
+      height: 70px;
+      flex: 1 0 0;
+      display: flex;
+      align-content: center;
+      border-radius: 10px;
+      padding: 15px 27px;
+      border: 0;
+      font-size: 35px;
+      font-weight: 400;
+      line-height: 110%;
+      text-align: center;
+    }
+
+    .mainButton:hover {
+      opacity: 80%;
+    }
+
+    .mainButton:active {
+      opacity: 60%;
+    }
+
+    .mainButton_idle {
+      background: var(--upload-button-primary);
+    }
+    .mainButton_loading {
+      background: var(--upload-button-loading);
+    }
+    .mainButton_uploaded {
+      background: var(--upload-button-uploaded);
+    }
+    .mainButton_success {
+      background: var(--upload-button-success);
+    }
+    .mainButton_error {
+      background: var(--upload-button-error);
+    }
+
+    .cancelButton {
+      border-radius: 10px;
+      width: 70px;
+      height: 70px;
+      padding: 8px;
+      background: var(--upload-button-cancel);
+      border: 0;
+      padding: 20px;
+    }
+
+    .cancelButton:hover {
+      opacity: 80%;
+    }
+
+    .cancelButton:active {
+      opacity: 60%;
+    }
+  }
+
+  .text {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 110%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,13 @@
+.wrapper {
+  background-color: var(--bg);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  gap: 80px;
+}
+
+.logo {
+  height: fit-content;
+  width: auto;
+}

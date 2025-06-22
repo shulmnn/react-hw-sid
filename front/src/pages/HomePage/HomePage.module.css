@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    gap: 20px;
+
+    .header {
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 110.00000000000001%;
+      text-align: center;
+
+      span {
+        font-weight: bold;
+      }
+    }
+
+    .dndContainer {
+      gap: 10px;
+      border-radius: 40px;
+      padding: 40px;
+      background-color: #eacdff;
+
+      display: flex;
+      align-content: center;
+      justify-content: center;
+    }
+  }
+
+  .history {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 40px;
+  }
+}

@@ -1,0 +1,25 @@
+:root {
+  --bg: #fce2ff;
+  --text-primary: #201b10;
+  --text-secondary: #201b10;
+  --text-highlight: #cb81ff;
+
+  --upload-button-primary: #ffffff;
+  --upload-button-uploaded: #ca81ff;
+  --upload-button-loading: #ca81ff;
+  --upload-button-success: #d3fae6;
+  --upload-button-error: #fe5f00;
+  --upload-button-cancel: #201b10;
+
+  --button-send: #29e881;
+  --button-send-disabled: #c0c0c0;
+  --button-download: #fce300;
+  --button-clear: #201b10;
+
+  --menu: #201b10;
+
+  --bg-row-info: #ffffff;
+  --bg-row-history: #ca81ff;
+  --bg-row-history-delete: #ffffff;
+  --bg-row-history-delete-icon: #fe5f00;
+}

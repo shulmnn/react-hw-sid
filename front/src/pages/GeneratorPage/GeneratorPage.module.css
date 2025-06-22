@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  h1 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 110.00000000000001%;
+    text-align: center;
+  }
+}
